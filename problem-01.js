@@ -1,0 +1,13 @@
+function matchWinner(teamAGoals, teamBGoals) {
+  if ( typeof teamAGoals !== 'number' || typeof teamBGoals !== 'number') {
+    console.log(teamAGoals, teamBGoals);
+    return 'Invalid';
+  } else if (teamAGoals > teamBGoals) {
+    return 'Team A Won';
+  } else if (teamAGoals < teamBGoals) {
+    return 'Team B Won';
+  } else {
+    return 'Draw';
+  }
+}
+
