@@ -1,7 +1,6 @@
 function matchWinner(teamAGoals, teamBGoals) {
-  
-  if ( typeof teamAGoals !== 'number' || typeof teamBGoals !== 'number') {
-    console.log(teamAGoals, teamBGoals);
+
+  if ( typeof teamAGoals !== 'number' || typeof teamBGoals !== 'number' || Number.isNaN(teamAGoals) || Number.isNaN(teamBGoals)) {
     return 'Invalid';
   } else if (teamAGoals > teamBGoals) {
     return 'Team A Won';
