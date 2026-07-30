@@ -1,4 +1,4 @@
-//Problem-01: Match Winner
+
 function matchWinner(teamAGoals, teamBGoals) {
   if (
     typeof teamAGoals !== 'number' ||
@@ -16,7 +16,7 @@ function matchWinner(teamAGoals, teamBGoals) {
   return 'Draw';
 }
 
-//Problem-02: Elevator Weight Safety Checker
+
 function isElevatorSafe(weights) {
   if (Array.isArray(weights) === false) {
     return 'Invalid';
@@ -38,7 +38,7 @@ function isElevatorSafe(weights) {
   return false;
 }
 
-//Problem-03: AI Token Cost Calculator
+
 function calculateAiCost(tokensUsed) {
   if (
     typeof tokensUsed !== 'number' ||
@@ -58,7 +58,7 @@ function calculateAiCost(tokensUsed) {
   return priceOfPremiumToken;
 }
 
-//Problem-04: Top Rated Restaurant Finder
+
 function topRatedRestaurant(restaurants) {
   if (Array.isArray(restaurants) === false || restaurants.length === 0) {
     return 'Invalid';
@@ -73,7 +73,7 @@ function topRatedRestaurant(restaurants) {
   return bestRestaurant.name.toUpperCase();
 }
 
-//Problem-05: Debugging Challenge - API Response Time Monitor
+
 function averageResponseTime(times) {
   if (Array.isArray(times) === false || times.length === 0) {
     return 'Invalid';
